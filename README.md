@@ -6,8 +6,7 @@ Giả định: thiết kế một hệ thống mạng của một công ty có 5
 - Cấu hình để tất cả các nhân viên có thể truy cập Internet (Router_ISP)
 - Đặt 1 tường lửa ASA bên ngoài Router_Biên để kiểm soát các truy cập từ bên ngoài vào hệ thống mạng
 - Cấu hình cho tất cả các nhân viên đều truy cập được website quảng bá
-- Cấu hình NAT (Router_Biên) để pub web ra bên ngoài Internet
-- Web server
-- DNS Server
-- VNP
-- Firewall ASA
+- Cấu hình NAT (Router_Biên) để pub web ra bên ngoài Internet, NAT 1:1
+- Firewall ASA, hoặc ACLs
+- VNP để có thể từ xa truy cập vào hệ thống của công ty
+
